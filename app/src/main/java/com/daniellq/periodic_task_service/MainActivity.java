@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String DEBUG_CONTEXT = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

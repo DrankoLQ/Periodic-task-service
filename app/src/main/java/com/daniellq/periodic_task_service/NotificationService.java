@@ -9,7 +9,6 @@ import android.support.v4.app.NotificationCompat;
  * Created by dani on 22/12/15.
  */
 public class NotificationService extends IntentService {
-    private static final String DEBUG_CONTEXT = "NotificationService";
 
     public NotificationService() {
         super("NotificationService");
@@ -20,9 +19,9 @@ public class NotificationService extends IntentService {
         // TODO: write your task here
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.ic_notification)
-                .setContentTitle("Periodict Task")
-                .setContentText("This is a periodic task notification");
+                        .setSmallIcon(R.drawable.ic_notification)
+                        .setContentTitle("Periodict Task")
+                        .setContentText("This is a periodic task notification");
         int mNotificationId = 1;
         NotificationManager mNotifyManager =
                 (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
