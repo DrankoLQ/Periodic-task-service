@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Periodic_task_service</string>
+
+    <!--activity_main-->
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stop service</string>
+    <string name="task_started">Task started</string>
+    <string name="task_stooped">Task stopped</string>
+</resources>
